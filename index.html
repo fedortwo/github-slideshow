@@ -1,13 +1,25 @@
----
-layout: presentation
----
+<!DOCTYPE html>
+<html>
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PARSE</title>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1 class=card-title></h1>
+        <div class="card-text">
+            <p class="salePayment">SalePayment</p>
+            <script src="js/newcode.js">  </script>
+
+
+        </div>
+
+    </div>
+</body>
+
+
+</html>
